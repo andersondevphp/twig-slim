@@ -278,4 +278,9 @@ return array(
     'Twig\\TwigTest' => $vendorDir . '/twig/twig/src/TwigTest.php',
     'Twig\\Util\\DeprecationCollector' => $vendorDir . '/twig/twig/src/Util/DeprecationCollector.php',
     'Twig\\Util\\TemplateDirIterator' => $vendorDir . '/twig/twig/src/Util/TemplateDirIterator.php',
+    'app\\controllers\\ContactController' => $baseDir . '/app/controllers/ContactController.php',
+    'app\\controllers\\Controller' => $baseDir . '/app/controllers/Controller.php',
+    'app\\controllers\\HomeController' => $baseDir . '/app/controllers/HomeController.php',
+    'app\\controllers\\UserController' => $baseDir . '/app/controllers/UserController.php',
+    'app\\traits\\View' => $baseDir . '/app/traits/View.php',
 );

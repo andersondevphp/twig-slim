@@ -357,6 +357,11 @@ class ComposerStaticInite15fbdaba4a43d7ea32dd60ad4943623
         'Twig\\TwigTest' => __DIR__ . '/..' . '/twig/twig/src/TwigTest.php',
         'Twig\\Util\\DeprecationCollector' => __DIR__ . '/..' . '/twig/twig/src/Util/DeprecationCollector.php',
         'Twig\\Util\\TemplateDirIterator' => __DIR__ . '/..' . '/twig/twig/src/Util/TemplateDirIterator.php',
+        'app\\controllers\\ContactController' => __DIR__ . '/../..' . '/app/controllers/ContactController.php',
+        'app\\controllers\\Controller' => __DIR__ . '/../..' . '/app/controllers/Controller.php',
+        'app\\controllers\\HomeController' => __DIR__ . '/../..' . '/app/controllers/HomeController.php',
+        'app\\controllers\\UserController' => __DIR__ . '/../..' . '/app/controllers/UserController.php',
+        'app\\traits\\View' => __DIR__ . '/../..' . '/app/traits/View.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
